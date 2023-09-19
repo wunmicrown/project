@@ -550,6 +550,9 @@ border: none;
 .available{
   margin-left: 56px;
 }
+.callback{
+  margin-right: -0px;
+}
 }
 @media screen and (max-width: 1027.50px){
     .responsive-sec{
@@ -559,9 +562,40 @@ border: none;
         display: none;
     }
 }
+.pararaph{
+  font-size: 12px; 
+  color: white !important;
+}
 #hidden{
   text-align: center;
-  color: #535F59;
+  color: white ;
   font-size: 15px;
   font-weight: 600;
+}
+@keyframes fadeout {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+#Contents {
+  animation: fadeout 0.7s ease-in-out;
+}
+
+.caret{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 12px;
+  height:12px;
+  border-left: 2px solid #B5BBC9;
+  border-bottom: 2px solid #B5BBC9; 
+}
+.deg315{
+  rotate: 135deg;  
+}
+.deg135{
+  rotate: 315deg;  
 }
