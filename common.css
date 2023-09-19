@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Graphik-web";
+    src: url('./fonts/GraphikRegular.otf');
+    font-weight: 400px;
+    font-style: normal ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Graphik-web', sans-serif;
+  }
+  body{
+    background-color: #F7F7F9;
+
+  }
+.container .card{
+  height: 70vh !important;
+  border: none;
+}
+.card-2{
+  margin-top: 20px;
+
+}
+  .font-test{
+    font-family:  sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .last-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .last-flex p {
+    margin: 0;
+    font-size: 8px;
+    font-weight: 900;
+    color: #586174;
+    padding: 5px;
+    flex: 1;
+  }
+  .last-flex img {
+    width: 10px;
+    margin-right: 5px;
+  }
+
+
+
